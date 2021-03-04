@@ -1,0 +1,8 @@
+
+server/vendor/
+server/public/coverage/
+server/public/_nuxt/
+server/phpunit.result.cache
+client/node_modules/
+client/.nuxt
+.env
