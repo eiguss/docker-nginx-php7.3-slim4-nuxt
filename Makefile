@@ -19,7 +19,7 @@ de-node:
 dd:
 	docker-compose down --rmi all
 
-# script for nuxt build
+# scripts for nuxt build
 clean-build:
 	rm -rf ./server/public/assets/*
 	rm -rf ./server/nuxt_index/
