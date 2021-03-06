@@ -2,9 +2,6 @@ export default {
     server:{
         host:"0.0.0.0"
     },
-    generate: {
-        dir: '../html/server/public'
-    },
     srcDir: 'nuxt/',
     ssr: false,
     target: 'static',
@@ -28,5 +25,6 @@ export default {
     modules: [
     ],
     build: {
+        publicPath: '/assets/',
     }
 }

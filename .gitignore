@@ -1,8 +1,10 @@
 
 server/vendor/
+server/nuxt_index/
 server/public/coverage/
-server/public/_nuxt/
+server/public/assets/
 server/phpunit.result.cache
 node/node_modules/
 node/.nuxt
+node/dist
 .env
