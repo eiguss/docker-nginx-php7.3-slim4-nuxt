@@ -9,7 +9,6 @@ node-build:
 	make create-build-folders
 	docker-compose exec node npm run build
 	make move-build-files-to-server
-	rm -rf ./node/dist/
 de:
 	docker-compose exec php sh
 de-nginx:
@@ -31,3 +30,4 @@ create-build-folders:
 move-build-files-to-server:
 	mv ./node/dist/index.html ./server/nuxt_index/
 	mv ./node/dist/assets/* ./server/public/assets
+	rm -rf ./node/dist/
