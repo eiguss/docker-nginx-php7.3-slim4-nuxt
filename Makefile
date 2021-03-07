@@ -19,6 +19,7 @@ dd:
 	docker-compose down --rmi all
 test:
 	docker-compose exec php composer test
+	docker-compose exec node npm run test
 
 # scripts for nuxt build
 clean-build:
