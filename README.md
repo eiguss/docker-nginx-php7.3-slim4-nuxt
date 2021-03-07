@@ -28,7 +28,6 @@ This will make available a nuxt dev server in localhost:3000 to develop the fron
 
 PHP will run in localhost:8080. The PHP docker will get the static nuxt HTML getting the static assets if they generated, to generate it execute:
 ```sh
-# docker up
 make node-build
 ```
 
