@@ -40,4 +40,10 @@ The folder /server have the php code using slim4 for more information about this
 The folder /node have the nuxt code. For more information about this framework go to https://nuxtjs.org/
 
 ## Test
-TODO
+The test are prepared to be executed using:
+
+```sh
+make test
+```
+
+The php coverage will be available in http://localhost:8080/coverage/index.html
