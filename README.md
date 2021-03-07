@@ -40,6 +40,8 @@ The folder /server have the php code using slim4 for more information about this
 The folder /node have the nuxt code. For more information about this framework go to https://nuxtjs.org/
 
 ## Test
+
+In the php and node docker we have a folder to make the tests called "/tests".
 The test are prepared to be executed using:
 
 ```sh
