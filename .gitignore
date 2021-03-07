@@ -3,7 +3,7 @@ server/vendor/
 server/nuxt_index/
 server/public/coverage/
 server/public/assets/
-server/phpunit.result.cache
+server/.phpunit.result.cache
 node/node_modules/
 node/.nuxt
 node/dist

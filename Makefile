@@ -17,6 +17,8 @@ de-node:
 	docker-compose exec node sh
 dd:
 	docker-compose down --rmi all
+test:
+	docker-compose exec php composer test
 
 # scripts for nuxt build
 clean-build:
