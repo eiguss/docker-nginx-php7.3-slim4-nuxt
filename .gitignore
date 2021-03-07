@@ -5,6 +5,7 @@ server/public/coverage/
 server/public/assets/
 server/.phpunit.result.cache
 node/node_modules/
+node/coverage/
 node/.nuxt
 node/dist
 .env
