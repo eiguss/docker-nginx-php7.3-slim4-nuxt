@@ -20,8 +20,8 @@ This project have three services:
 You need to have doker in you computer to install it. To run the dockers execute:
 
 ```sh
-# docker up
-make du
+# docker up with install
+make du-i
 ```
 
 This will make available a nuxt dev server in localhost:3000 to develop the frontend application, this is a hotreloading to make easy the development.

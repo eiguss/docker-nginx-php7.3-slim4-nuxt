@@ -1,9 +1,12 @@
 #setup
 du:
 	docker-compose up -d --build
+	docker-compose exec node npm run dev
 du-i:
 	docker-compose up -d --build
 	docker-compose exec php composer install
+	docker-compose exec node npm install
+	docker-compose exec node npm run dev
 node-build:
 	make clean-build
 	make create-build-folders
